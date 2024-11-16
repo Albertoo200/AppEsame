@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/subtask_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_subtask"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_progetto"
+            android:textSize="16sp"
+            android:layout_below="@id/subtask_name"/>
+
+            <TextView
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_task"
+            android:textSize="16sp"
+            android:layout_below="@id/project_name"/>
+
+        <TextView
+            android:id="@+id/subtask_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/priorit"
+            android:textSize="16sp"
+            android:layout_below="@id/task_name"/>
+
+        <TextView
+            android:id="@+id/subtask_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textSize="16sp"
+            android:layout_below="@id/subtask_priority"/>
+
+        <TextView
+            android:id="@+id/subtask_expiration_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_di_scadenza"
+            android:textSize="16sp"
+            android:layout_below="@id/subtask_status"/>
+
+        <ProgressBar
+            android:id="@+id/subtask_progress_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:max="100"
+            android:progressTint="@color/colorProgress"
+            android:backgroundTint="@color/colorLightGray"
+            android:progress="0"
+            android:layout_below="@id/subtask_expiration_date"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

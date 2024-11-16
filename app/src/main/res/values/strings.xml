@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AppEsameProjects</string>
+    <string name="projects">Projects</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="or">OR</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="aggiungi_progetto">Aggiungi Progetto</string>
+    <string name="nome_progetto">Nome Progetto</string>
+    <string name="project_leader">Project Leader</string>
+    <string name="data_di_scadenza">Data di Scadenza</string>
+    <string name="salva">Salva</string>
+    <string name="descrizione_task">Descrizione Task</string>
+    <string name="nome_task">Nome Task</string>
+    <string name="developer">Developer</string>
+    <string name="aggiungi_subtask">Aggiungi SubTask</string>
+    <string name="nome_subtask">Nome SubTask</string>
+    <string name="status">Status</string>
+    <string name="priorit">Priorità</string>
+    <string name="aggiungi">Aggiungi</string>
+    <string name="progresso">Progresso</string>
+    <string name="search">Search</string>
+    <string name="cerca_nome_progetto">Cerca nome progetto...</string>
+    <string name="sollecito">Sollecito</string>
+    <string name="_00_00_0000_00_00">00/00/0000 00:00</string>
+    <string name="nome_utente">Nome utente</string>
+    <string name="email_title">Email:</string>
+    <string name="email_utente">email</string>
+    <string name="tipo_di_account_title">Tipo di account:</string>
+    <string name="tipo_utente">tipo account</string>
+    <string name="skills_title">Skills:</string>
+    <string name="aggiungi_skill">Aggiungi Skill</string>
+    <string name="notifica">Notifica</string>
+    <string name="chiudi_la_notifica">Chiudi la notifica</string>
+    <string name="chat">Chat</string>
+
+    <!-- Opzioni per il Priority Spinner -->
+    <string-array name="priority_options">
+        <item>Minima</item>
+        <item>Media</item>
+        <item>Massima</item>
+    </string-array>
+
+    <!-- Opzioni per lo Status Spinner -->
+    <string-array name="status_options">
+        <item>Assigned</item>
+        <item>ToDo</item>
+        <item>Completed</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="destinatario">Destinatario:</string>
+    <string name="scrivi_un_messaggio">Scrivi un messaggio</string>
+    <string name="cerca_task">Cerca Task</string>
+    <string name="testo_messaggio">Testo messaggio</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="invia">Invia</string>
+    <string name="projects_title">Projects:</string>
+    <string name="tasks_title">Tasks:</string>
+    <string name="tasks">Tasks</string>
+
+</resources>

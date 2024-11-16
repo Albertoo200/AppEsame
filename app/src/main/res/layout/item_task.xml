@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_task"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_progetto"
+            android:layout_below="@id/task_name"/>
+
+        <TextView
+            android:id="@+id/task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descrizione_task"
+            android:textSize="16sp"
+            android:layout_below="@id/project_name"/>
+
+        <TextView
+            android:id="@+id/task_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:textSize="16sp"
+            android:layout_below="@id/task_description"/>
+
+        <TextView
+            android:id="@+id/task_expiration_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_di_scadenza"
+            android:textSize="16sp"
+            android:layout_below="@id/task_developer"/>
+
+        <ProgressBar
+            android:id="@+id/task_progress_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:max="100"
+            android:progressTint="@color/colorProgress"
+            android:backgroundTint="@color/colorLightGray"
+            android:progress="0"
+            android:layout_below="@id/task_expiration_date"/>
+
+        <ImageView
+            android:id="@+id/reminder_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/sollecito"
+            android:src="@drawable/ic_notification_send"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
