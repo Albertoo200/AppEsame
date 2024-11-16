@@ -42,6 +42,15 @@
     <string name="notifica">Notifica</string>
     <string name="chiudi_la_notifica">Chiudi la notifica</string>
     <string name="chat">Chat</string>
+    <string name="destinatario">Destinatario:</string>
+    <string name="scrivi_un_messaggio">Scrivi un messaggio</string>
+    <string name="cerca_task">Cerca Task</string>
+    <string name="testo_messaggio">Testo messaggio</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="invia">Invia</string>
+    <string name="projects_title">Projects:</string>
+    <string name="tasks_title">Tasks:</string>
+    <string name="tasks">Tasks</string>
 
     <!-- Opzioni per il Priority Spinner -->
     <string-array name="priority_options">
@@ -56,14 +65,7 @@
         <item>ToDo</item>
         <item>Completed</item>
     </string-array>
-    <string name="destinatario">Destinatario:</string>
-    <string name="scrivi_un_messaggio">Scrivi un messaggio</string>
-    <string name="cerca_task">Cerca Task</string>
-    <string name="testo_messaggio">Testo messaggio</string>
-    <string name="timestamp">Timestamp</string>
-    <string name="invia">Invia</string>
-    <string name="projects_title">Projects:</string>
-    <string name="tasks_title">Tasks:</string>
-    <string name="tasks">Tasks</string>
+
+
 
 </resources>
